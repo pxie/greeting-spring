@@ -1,0 +1,7 @@
+---
+applications:
+- name: greeting-spring
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git#v3.13
+  memory: 512MB
+  instances: 1
+  random-route: true
